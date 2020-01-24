@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>08e2a261-2a77-4534-b99c-395ffb2f4dc6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonConcoleApp.py</StartupFile>
+    <StartupFile>04-QuickSort\01_loop_sum.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PythonConcoleApp.py" />
+    <Compile Include="04-QuickSort\01_loop_sum.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="04-QuickSort\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
